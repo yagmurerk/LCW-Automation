@@ -5,7 +5,7 @@ public class ProductDetailPage extends BasePage {
 
     By selectSizeButtonLocator = By.id("option-size");
     By addToChartButtonLocator = By.className("add-to-cart");
-    By goCartClickLocator = By.id("cart-items");
+    By goCartClickLocator = By.className("header-bag-icon");
 
     public ProductDetailPage(WebDriver driver) {
         super(driver);
@@ -20,5 +20,6 @@ public class ProductDetailPage extends BasePage {
         click(selectSizeButtonLocator);
         click(addToChartButtonLocator);
         click(goCartClickLocator);
+
     }
 }

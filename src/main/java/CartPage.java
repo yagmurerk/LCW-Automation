@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CartPage extends BasePage {
 
+    By increaseProductButtonLocator = By.className("oq-up");
     By spanCartLocator = By.id("spanCart");
     By deleteProductButtonLocator = By.className("cart-square-link");
     By wantToDeleteLocator = By.className("inverted-modal-button");
@@ -17,6 +18,10 @@ public class CartPage extends BasePage {
         return isDisplayed(spanCartLocator);
     }
 
+    public void increaseProduct(){
+        click(increaseProductButtonLocator);
+    }
+
     public void deleteProduct() {
 
         click(spanCartLocator);
@@ -24,6 +29,7 @@ public class CartPage extends BasePage {
         click(wantToDeleteLocator);
 
     }
+
 
     public boolean isProductDeleted() {
         return isDisplayed(noProductInCartLocator);

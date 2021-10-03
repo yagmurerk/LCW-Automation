@@ -16,8 +16,6 @@ public class Test_Product_Process extends BaseTest {
 
 
 
-
-
     @Test
     @Order(1)
     public void go_login(){
@@ -75,7 +73,9 @@ public class Test_Product_Process extends BaseTest {
     @Test
     @Order(6)
     public void delete_the_product(){
+        cartPage.increaseProduct() ;
         cartPage.deleteProduct() ;
+
         Assertions.assertTrue(cartPage.isProductDeleted(),
                 "Product is not Deleted");
 
