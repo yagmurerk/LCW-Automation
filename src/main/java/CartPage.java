@@ -14,7 +14,7 @@ public class CartPage extends BasePage {
 
     }
 
-    public boolean isProductPriceSame() {
+    public boolean isProductonCartPage() {
         return isDisplayed(spanCartLocator);
     }
 
@@ -23,13 +23,12 @@ public class CartPage extends BasePage {
     }
 
     public void deleteProduct() {
-
-        click(spanCartLocator);
         click(deleteProductButtonLocator);
-        click(wantToDeleteLocator);
-
     }
 
+    public void acceptDeleting() {
+        click(wantToDeleteLocator);
+    }
 
     public boolean isProductDeleted() {
         return isDisplayed(noProductInCartLocator);

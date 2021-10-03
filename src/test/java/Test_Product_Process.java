@@ -65,8 +65,8 @@ public class Test_Product_Process extends BaseTest {
     public void add_product_to_cart(){
         cartPage = new CartPage(driver);
         productDetailPage.addToCart();
-        Assertions.assertTrue(cartPage.isProductPriceSame(),
-                "Product Price is Different");
+        Assertions.assertTrue(cartPage.isProductonCartPage(),
+                "Product on Cart");
 
     }
 
@@ -75,6 +75,7 @@ public class Test_Product_Process extends BaseTest {
     public void delete_the_product(){
         cartPage.increaseProduct() ;
         cartPage.deleteProduct() ;
+        cartPage.acceptDeleting();
 
         Assertions.assertTrue(cartPage.isProductDeleted(),
                 "Product is not Deleted");
