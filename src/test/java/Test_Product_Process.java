@@ -32,8 +32,8 @@ public class Test_Product_Process extends BaseTest {
     @Order(2)
     public void login_site() {
         loginPage = new LoginPage(driver);
-        loginPage.clickPhone();
-        loginPage.mailOfUser().write1("53150812");
+
+        loginPage.mailOfUser().write1("yagmurerkk@gmail.com");
         loginPage.passwordOfUser().write2(("Yagmur1997"));
         Assertions.assertTrue(homePage.isOnHomePage() ,
                 "Mail or Password is incorrect");
@@ -56,7 +56,7 @@ public class Test_Product_Process extends BaseTest {
     @Order(4)
     public void select_product(){
         productDetailPage = new ProductDetailPage(driver);
-        productsPage.selectProduct(10);
+        productsPage.selectProduct(1);
         Assertions.assertTrue(productDetailPage.isOnProductDetailPage()  ,
                 "Not on Product Detail Page");
 

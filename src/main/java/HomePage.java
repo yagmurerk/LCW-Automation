@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class HomePage extends BasePage {
 
-    By checkHomePage = By.id("asyncLoadedExternalScripts");
+    By checkHomePage = By.id("splide01");
     By goLoginPageLocator = By.id("header-user-section");
     SearchBox searchBox ;
     LoginPage loginPage;

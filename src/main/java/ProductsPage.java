@@ -8,7 +8,7 @@ public class ProductsPage extends BasePage {
 
     By moreProductLocator = By.id("padeIndex") ;
     By productCheckLocator = By.id("model_2078129_5525563") ;
-    By productNameLocator = By.id("model_1781232_5322616") ;
+    By productNameLocator = By.className("info") ;
 
     public ProductsPage(WebDriver driver) {
         super(driver);
@@ -28,10 +28,7 @@ public class ProductsPage extends BasePage {
         return findAll(productNameLocator);
     }
 
-    public void scrollPage() {
-        find(moreProductLocator);
-        click(moreProductLocator);
-    }
+
 
     public boolean isOnUnderThePage() {
         return isDisplayed(productCheckLocator);

@@ -16,6 +16,7 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("https://www.lcwaikiki.com/tr-TR/TR");
+        driver.get("https://www.lcwaikiki.com/tr-TR/TR/giris");
         driver.manage().window().maximize();
 
     }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MailOfUser extends BasePage {
 
-    By mailOfUserLocator =  By.id("LoginPhoneNumber");
+    By mailOfUserLocator =  By.id("LoginEmail");
 
 
     public MailOfUser(WebDriver driver) {

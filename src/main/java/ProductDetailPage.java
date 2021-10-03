@@ -3,7 +3,9 @@ import org.openqa.selenium.WebDriver;
 
 public class ProductDetailPage extends BasePage {
 
-    By addToChartButtonLocator = By.id("pd_add_to_chart");
+    By selectSizeButtonLocator = By.id("option-size");
+    By addToChartButtonLocator = By.className("add-to-cart");
+    By goCartClickLocator = By.id("cart-items");
 
     public ProductDetailPage(WebDriver driver) {
         super(driver);
@@ -15,6 +17,8 @@ public class ProductDetailPage extends BasePage {
     }
 
     public void addToCart() {
+        click(selectSizeButtonLocator);
         click(addToChartButtonLocator);
+        click(goCartClickLocator);
     }
 }
