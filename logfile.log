@@ -1,0 +1,110 @@
+2021-10-03 18:00:10,340 ERROR [Log] delete_the_product()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":".cart\-square\-link"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46443d49753793188a4a013175823972, findElement {using=css selector, value=.cart\-square\-link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53177/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46443d49753793188a4a013175823972 
+2021-10-03 18:02:03,021 ERROR [Log] add_product_to_cart()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":"#spanCart"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6d69c92dcb7a484faf3b9427d7e3c0a, findElement {using=id, value=spanCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53417/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6d69c92dcb7a484faf3b9427d7e3c0a 
+2021-10-03 18:02:03,073 ERROR [Log] delete_the_product()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":".oq\-up"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6d69c92dcb7a484faf3b9427d7e3c0a, findElement {using=css selector, value=.oq\-up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53417/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6d69c92dcb7a484faf3b9427d7e3c0a 
+2021-10-03 18:02:29,477 ERROR [Log] go_login()Failed w/ cause : stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8726ed1fffb0c4e8001d0304f683ccbf, clickElement {id=135efceb-f011-49ec-9cb7-dc278fc356a0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62496/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8726ed1fffb0c4e8001d0304f683ccbf)] -> id: header-user-section]
+Session ID: 8726ed1fffb0c4e8001d0304f683ccbf 
+2021-10-03 18:02:31,982 ERROR [Log] search_pantolon()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":"#model_2078129_5525563"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8726ed1fffb0c4e8001d0304f683ccbf, findElement {using=id, value=model_2078129_5525563}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62496/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8726ed1fffb0c4e8001d0304f683ccbf 
+2021-10-03 18:02:32,021 ERROR [Log] select_product()Failed w/ cause : Index 1 out of bounds for length 0 
+2021-10-03 18:02:32,049 ERROR [Log] add_product_to_cart()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":"#option\-size"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8726ed1fffb0c4e8001d0304f683ccbf, findElement {using=id, value=option-size}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62496/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8726ed1fffb0c4e8001d0304f683ccbf 
+2021-10-03 18:02:32,061 ERROR [Log] delete_the_product()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":".oq\-up"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8726ed1fffb0c4e8001d0304f683ccbf, findElement {using=css selector, value=.oq\-up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62496/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8726ed1fffb0c4e8001d0304f683ccbf 
+2021-10-03 18:03:12,414 ERROR [Log] delete_the_product()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":".fa"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13cb9ac2c2425b64009ed55a10893838, findElement {using=css selector, value=.fa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57866}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57866/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13cb9ac2c2425b64009ed55a10893838 
+2021-10-03 18:06:04,348 ERROR [Log] delete_the_product()Failed w/ cause : element not interactable
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16f282e34c3a00f77e1eb0e3ea96b0eb, clickElement {id=bb524e43-0112-4a92-9a66-ab9d6da77b02}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52417/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (16f282e34c3a00f77e1eb0e3ea96b0eb)] -> class: inverted-modal-button]
+Session ID: 16f282e34c3a00f77e1eb0e3ea96b0eb 
+2021-10-03 18:07:29,694 ERROR [Log] delete_the_product()Failed w/ cause : no such element: Unable to locate element: {"method":"css selector","selector":".cart\-square\-link"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e46792d050f3175d2f6cc1443c243c63, findElement {using=css selector, value=.cart\-square\-link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52766/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e46792d050f3175d2f6cc1443c243c63 
+2021-10-03 18:14:02,068 ERROR [Log] delete_the_product()Failed w/ cause : element not interactable
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63af0d5f3552b4514e48374e6111a003, clickElement {id=30363d98-a7f0-4af5-8acf-36111f5c38bc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62658/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (63af0d5f3552b4514e48374e6111a003)] -> class: inverted-modal-button]
+Session ID: 63af0d5f3552b4514e48374e6111a003 
+2021-10-03 18:15:51,774 ERROR [Log] delete_the_product()Failed w/ cause : element not interactable
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-RJKNOG1', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d166c639c4144bf79375ff1b18903d2, clickElement {id=4efe1390-3079-4144-a0c4-634fcbb4009f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\yagmu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4d166c639c4144bf79375ff1b18903d2)] -> class: inverted-modal-button]
+Session ID: 4d166c639c4144bf79375ff1b18903d2 
