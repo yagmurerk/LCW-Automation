@@ -30,3 +30,4 @@ public class TestsResultLogger implements TestWatcher {
         log.error(testName + "Failed w/ cause : " + testFailCause);
     }
 }
+
